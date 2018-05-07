@@ -36,16 +36,14 @@
                     android:layout_gravity="center"
                     android:textColor="#fff"
                     android:textSize="40sp"/>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="AQI指数"
-                    android:textColor="#fff"
-                    />
-
+                    android:textColor="#fff" />
             </LinearLayout>
+        </RelativeLayout>
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -61,24 +59,15 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:textColor="#fff"
-                    android:textSize="40sp"
-                    />
+                    android:textSize="40sp" />
                 <TextView
-
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="PM2.5指数"
                     android:textColor="#fff"
                     />
-
             </LinearLayout>
-
         </RelativeLayout>
-        </RelativeLayout>
-
-    
     </LinearLayout>
-
-
 </LinearLayout>
